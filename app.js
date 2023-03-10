@@ -1,4 +1,3 @@
-// ****** SELECT ITEMS **********
 const alert = document.querySelector(".alert");
 const form = document.querySelector(".grocery-form");
 const grocery = document.getElementById("grocery");
@@ -184,11 +183,3 @@ function createListItem(id, value) {
 
   list.appendChild(element);
 }
-// localStorage.setItem(
-//   "orange",
-//   JSON.stringify(["item", "item2"])
-// );
-// const oranges = JSON.parse(localStorage.getItem("orange"));
-// console.log(oranges);
-// localStorage.removeItem("orange");
-// ****** SETUP ITEMS **********
